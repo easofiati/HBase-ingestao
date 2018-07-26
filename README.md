@@ -28,6 +28,8 @@ hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.separator=',' -Dim
 ```
 Pronto! Arquivo importado no HBase, não vou entrar no mérito de explicar exatamente a síntaxe acima com cada um de seus parâmetros, até mesmo porque tentei deixá-la o mais simples possível, porém no final deste artigo deixo o link de referência da própria Apache, onde consta toda a documentação. Existe outra alternativa neste mesmo utilitário, que seria gerar o arquivo do HBase e somente depois carregar o arquivo incremental, muda-se poucos parâmetro, mas isso é assunto para uma outra hora, entretanto deixarei também nos links alguns artigos sobre isso para que possam explorar essa alternativa. Por fim, espero ter contribúido para gerar novas possibilidades de se realizar ingestão de dados no HBase e com isso, você tenha possibilidades de fazer testes com diversas opções e descobrir qual a melhor para cada caso.
 Abaixo segue alguns links de referência:
-- [http://hbase.apache.org/0.94/book/ops_mgt.html#importtsv] (http://hbase.apache.org/0.94/book/ops_mgt.html#importtsv)
-- [https://hbase.apache.org/apidocs/org/apache/hadoop/hbase/mapreduce/ImportTsv.html] (https://hbase.apache.org/apidocs/org/apache/hadoop/hbase/mapreduce/ImportTsv.html)
-- [https://blog.cloudera.com/blog/2013/09/how-to-use-hbase-bulk-loading-and-why/] (https://blog.cloudera.com/blog/2013/09/how-to-use-hbase-bulk-loading-and-why/)
+- [http://hbase.apache.org/0.94/book/ops_mgt.html#importtsv](http://hbase.apache.org/0.94/book/ops_mgt.html#importtsv)
+- [https://hbase.apache.org/apidocs/org/apache/hadoop/hbase/mapreduce/ImportTsv.html](https://hbase.apache.org/apidocs/org/apache/hadoop/hbase/mapreduce/ImportTsv.html)
+- [https://blog.cloudera.com/blog/2013/09/how-to-use-hbase-bulk-loading-and-why/](https://blog.cloudera.com/blog/2013/09/how-to-use-hbase-bulk-loading-and-why/)
+- [http://dwgeek.com/apache-hbase-bulk-load-csv-examples.html/](http://dwgeek.com/apache-hbase-bulk-load-csv-examples.html/)
+- [https://blogs.perficient.com/2015/09/09/some-ways-load-data-from-hdfs-to-hbase/](https://blogs.perficient.com/2015/09/09/some-ways-load-data-from-hdfs-to-hbase/)
